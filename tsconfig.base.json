@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@divina/shared/*": ["packages/shared/src/*"],
+      "@divina/ui/*": ["packages/ui/src/*"],
+      "@divina/providers/*": ["packages/providers/src/*"],
+      "@divina/queue/*": ["packages/queue/src/*"],
+      "@divina/db": ["packages/db/src/index.ts"]
+    }
+  }
+}
